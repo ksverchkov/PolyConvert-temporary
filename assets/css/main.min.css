@@ -1,0 +1,37 @@
+body{
+    background: #050507;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.img > img {
+    width: 130px;
+}
+
+.back-img {
+    display: flex;
+    justify-content: center;
+}
+
+.back-img > img {
+    max-width: 600px;
+}
+
+.img-text {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    text-align: center;
+    padding: 30px 15px;
+}
